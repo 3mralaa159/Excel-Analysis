@@ -6,6 +6,10 @@ Using tools like Excel and Power Query, I streamlined the process to generate ac
   - Leveraging Power Query for data consolidation saves time and ensures accuracy.
   - Fuzzy matching is a powerful tool for detecting and resolving inconsistencies in data.
   - A structured approach transforms messy data into actionable insights.
+## Tools
+  - Excel
+  - Power Query
+  - Fuzzy Matching
 
 ## Situation
 - The task involved preparing a monthly sales report, but the available data posed significant challenges. Old sales data was scattered across various files, with discrepancies in item names, prices, and inconsistent formatting, making it difficult to generate accurate reports.
@@ -30,7 +34,6 @@ Using tools like Excel and Power Query, I streamlined the process to generate ac
   - Generated a master sheet with accurate item names, monthly sales, and prices.
 ## Result
 - The result was a clean, consolidated dataset that:
-
   - Improved reporting efficiency and accuracy.
   - Provided a reusable structure for future monthly sales reports.
   - Enabled better decision-making with reliable and organized data.
