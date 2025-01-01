@@ -29,7 +29,7 @@ Using tools like Excel and Power Query, I streamlined the process to generate ac
 
   - Generated a master sheet with accurate item names, monthly sales, and prices.
 ## Result
--The result was a clean, consolidated dataset that:
+- The result was a clean, consolidated dataset that:
 
   - Improved reporting efficiency and accuracy.
   - Provided a reusable structure for future monthly sales reports.
