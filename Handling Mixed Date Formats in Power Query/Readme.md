@@ -33,7 +33,7 @@ Inconsistent data can lead to errors and inefficiencies in analysis. This soluti
   - Mixed Format Handling: Recognizes delimiters like / and -, rearranging parts into a standard format.
   - Original Data Preservation: Invalid or unrecognized entries remain unchanged for manual review.
  
-```powerquery
+```power query
 
 if Text.Contains([Ship Date], "/") or Text.Contains([Ship Date], "-") then
     let
