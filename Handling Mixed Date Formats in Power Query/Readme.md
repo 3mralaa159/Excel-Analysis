@@ -8,8 +8,16 @@ Whether your data contains valid dates, inconsistent formats (DD/MM/YYYY, MM-DD-
 
 If you’ve ever struggled with converting date columns due to formatting issues, this guide is for you!
 
+## Key Learnings
+- Handling Mixed Data Types: Use Value.Is to differentiate between Text and Date types in Power Query. This ensures appropriate transformations for each type.
+- Flexible Formatting: Recognizing delimiters (/, -) and rearranging parts enables you to handle various date formats without hardcoding assumptions.
+- Graceful Error Handling: Leveraging try...otherwise allows you to preserve invalid entries and prevent data loss, ensuring transparency during the cleaning process.
+- Automation Benefits: A well-designed transformation formula reduces manual intervention, streamlines data workflows, and ensures consistency across datasets.
+
 ## Situation
 While working on a sales dataset, I encountered a recurring issue: the date column contained inconsistent formats. Some entries were valid Date types, others were strings in various formats, and a few were invalid. Attempting to convert the column to a Date type in Power Query led to errors, making it difficult to process the data efficiently.
+Inconsistent data can lead to errors and inefficiencies in analysis. This solution ensures cleaner, standardized data, saving time and reducing manual corrections.
+
 
 ## Task
 - The goal was to:
@@ -39,3 +47,9 @@ else
     [Ship Date]
 
 ```
+
+##Result
+- After applying this solution:
+
+  - Valid Dates: Converted into a consistent format (YYYY-MM-DD).
+  - Future Proofing: The formula is reusable for other datasets with similar issues.
