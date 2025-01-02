@@ -25,7 +25,8 @@ While working on a sales dataset, I encountered a recurring issue: the date colu
   - Mixed Format Handling: Recognizes delimiters like / and -, rearranging parts into a standard format.
   - Original Data Preservation: Invalid or unrecognized entries remain unchanged for manual review.
  
-'''
+```powerquery
+
 if Text.Contains([Ship Date], "/") or Text.Contains([Ship Date], "-") then
     let
         parts = Text.SplitAny([Ship Date], "/-"),
@@ -36,4 +37,5 @@ if Text.Contains([Ship Date], "/") or Text.Contains([Ship Date], "-") then
         try swapped otherwise [Ship Date]
 else
     [Ship Date]
-'''
+
+```
