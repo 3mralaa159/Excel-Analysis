@@ -48,7 +48,7 @@ else
 
 ```
 
-##Result
+## Result
 - After applying this solution:
 
   - Valid Dates: Converted into a consistent format (YYYY-MM-DD).
