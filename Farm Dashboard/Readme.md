@@ -91,4 +91,40 @@ This farm dashboard was designed to efficiently manage inventory, sales, collect
     MonthYear = FORMAT([Date], "MMM YYYY")
     ```
     
+## Key Learnings
 
+1. **Formula Optimization**: Leveraged advanced Excel functions like `SUMIF`, `FILTER`, and `UNIQUE` for dynamic calculations.
+    
+2. **Macro Efficiency**: Automated repetitive tasks for improved accuracy and time management.
+    
+3. **Power Pivot Mastery**: Resolved slicer hierarchy issues and created robust data models for insightful reporting.
+    
+4. **Dashboard Design**: Built an intuitive interface with buttons and charts to visualize key metrics.
+    
+5. **User Input Validation**: Ensured data integrity with validation and calendar tools.
+    
+
+## STAR Methods Example
+
+### Situation:
+
+The farm owner needed a system to track inventory, sales, collections, and expenses efficiently while generating insightful reports.
+
+### Task:
+
+Design a dynamic, easy-to-use Excel-based dashboard that integrates inventory and sales data, provides daily performance metrics, and allows for quick data entry.
+
+### Action:
+
+- Created dedicated sheets for items, inventory, sales, collections, and expenses.
+    
+- Automated ID generation and input validation.
+    
+- Utilized Power Pivot for advanced analytics and resolved slicer issues with DAX formulas.
+    
+- Designed an interactive dashboard with buttons, charts, and summarized metrics.
+    
+
+### Result:
+
+Delivered a fully functional dashboard that streamlined operations, reduced manual effort, and provided actionable insights, greatly improving decision-making for the farm owner.
