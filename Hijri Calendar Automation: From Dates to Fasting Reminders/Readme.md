@@ -1,3 +1,26 @@
+# **Project Overview**  
+This project focuses on automating the preparation of a Hijri calendar dataset in Excel and transforming it into actionable reminders for Google Calendar. The solution streamlines the process by handling data cleaning, text extraction, and advanced formatting using a mix of Excel formulas, VBA, and conditional formatting.
+
+---
+
+## **💡 Features**
+
+1. **Preserving Hijri Text Values**:
+    
+    - A VBA script extracts and copies visible Hijri date text to maintain its integrity without altering underlying Gregorian data.
+2. **Highlighting Key Dates**:
+    
+    - Conditional formatting identifies and highlights the 13th, 14th, and 15th of every Hijri month.
+    - Additional highlights for Mondays and Thursdays to mark recommended fasting days.
+3. **Data Transformation for Customization**:
+    
+    - Extracted Hijri days, months, and years for advanced filtering.
+    - Combined text values for easy identification of day names and important dates.
+4. **Google Calendar Integration**:
+    
+    - Prepared a clean dataset with all necessary columns for seamless import into Google Calendar as fasting reminders.
+--- 
+
 ## **Situation**  
 I worked on a project that involved preparing a dataset for Islamic Hijri calendar-related reminders. The dataset had two main columns:
 
